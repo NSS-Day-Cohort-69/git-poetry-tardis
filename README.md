@@ -41,7 +41,7 @@ One teammate, type `git branch make-roses-pink` in the terminal, which will crea
 
 Next, replace the word "red" in the first line with "pink" and save the file. In the terminal type `git add .`, then `git commit -m "roses are now pink"`, then `git push origin make-roses-pink` to add, commit and then push the changes, still staying within our new branch.
 
-Now, anyone should be able to view the new branch with its changes. Refresh the github page (with the **code** tab selected at the top) and you should have a dropdown with **main** selected. Clicking that dropdown, you can now select the new `make-roses-pink` branch to view the files, and click on the story.txt file to see its updated contents. 
+Now, anyone should be able to view the new branch with its changes. Refresh the github page (with the **code** tab selected at the top) and you should have a dropdown with **main** selected. Clicking that dropdown, you can now select the new `make-roses-pink` branch to view the files, and click on the story.txt(?) file to see its updated contents. 
 
 Also, at the top of the code overview page, there should be a new message with a green **Compare and Pull Request** button. Whoever made the changes should click this button to look over all the changes. This page shows a **diff** view, which uses color-coded formatting to compare the differences between the versions. If this looks OK, click **Create Pull Request** to start merging these changes back to the main branch.
 
